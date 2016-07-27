@@ -1,0 +1,4 @@
+--compilers js:babel-register
+--timeout 20000
+--require ./src/utils/polyfills.js
+@(src)/**/*.test.js

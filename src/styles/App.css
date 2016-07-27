@@ -1,0 +1,40 @@
+body {
+  background: 
+    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent),
+    radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px,
+    linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+    linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+  background-color: slategray;
+  background-size:100px 100px, 100px 100px, 50px 50px, 50px 50px;
+}
+
+#app {
+  padding-top: 1.5rem;
+}
+
+.main-card {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+
+.full-width {
+  width: 100%;
+}
+
+.align-center {
+  text-align: center;
+}
+
+@media (max-width: 800px){
+
+  #app {
+    padding-top: 0;
+  }
+
+  .main-card {
+    box-shadow: none;
+  }
+
+}

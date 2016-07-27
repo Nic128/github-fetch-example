@@ -1,0 +1,1 @@
+import 'babel-polyfill'; // Required for sagas to work
